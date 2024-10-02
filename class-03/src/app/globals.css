@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+background-color: rgba(239, 157, 26, 0.927);
+color:rgb(12, 12, 12);
+padding-right: 2%;
+padding-top: 0.2%;
+}
+.header-button{
+  display:flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: flex-end;
+  align-items: left;
+  gap: 10px;
+  font-size: larger;
+}
